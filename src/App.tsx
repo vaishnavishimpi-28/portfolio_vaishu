@@ -451,14 +451,14 @@ export default function App() {
                     <span className="text-xs text-slate-500 bg-slate-800 px-3 py-1 rounded-full border border-slate-700">2020 – 2024</span>
                   </div>
                   <div className="mt-3 flex gap-4">
-                    <div className="text-center bg-slate-800/60 rounded-xl px-4 py-2 border border-slate-700/40">
+                    {/* <div className="text-center bg-slate-800/60 rounded-xl px-4 py-2 border border-slate-700/40">
                       <p className="text-lg font-bold text-cyan-400">6.91</p>
                       <p className="text-xs text-slate-500">CGPA</p>
-                    </div>
-                    <div className="text-center bg-slate-800/60 rounded-xl px-4 py-2 border border-slate-700/40">
+                    </div> */}
+                    {/* <div className="text-center bg-slate-800/60 rounded-xl px-4 py-2 border border-slate-700/40">
                       <p className="text-lg font-bold text-cyan-400">60.65%</p>
                       <p className="text-xs text-slate-500">Percentage</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -466,8 +466,8 @@ export default function App() {
 
             <div className="grid sm:grid-cols-2 gap-5">
               {[
-                { label: 'HSC', board: 'Savitribai Phule Pune University', year: '2020', score: '68.62%' },
-                { label: 'SSC', board: 'Nasik Board', year: '2018', score: '89.40%' },
+                { label: 'HSC', board: 'Savitribai Phule Pune University', year: '2020' },
+                { label: 'SSC', board: 'Nasik Board', year: '2018' },
               ].map(edu => (
                 <div key={edu.label} className="card-glass rounded-2xl p-5 border border-slate-800/60 hover:border-cyan-500/20 transition-all">
                   <div className="flex justify-between items-start mb-2">
