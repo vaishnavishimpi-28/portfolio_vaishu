@@ -238,10 +238,10 @@ export default function App() {
 
         <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in-up">
-            <div className="inline-flex items-center gap-2 bg-cyan-500/10 border border-cyan-500/20 rounded-full px-4 py-1.5 text-xs text-cyan-400 font-medium mb-6 tracking-wide">
+            {/* <div className="inline-flex items-center gap-2 bg-cyan-500/10 border border-cyan-500/20 rounded-full px-4 py-1.5 text-xs text-cyan-400 font-medium mb-6 tracking-wide">
               <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
               Open to Opportunities
-            </div>
+            </div> */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Hi, I'm<br />
               <span className="text-gradient">Vaishnavi Shimpi</span>
